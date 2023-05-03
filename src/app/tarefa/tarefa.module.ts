@@ -4,6 +4,8 @@ import { MatTableModule } from '@angular/material/table';
 
 import { TarefaRoutingModule } from './tarefa-routing.module';
 import { TarefaComponent } from './tarefa/tarefa.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 
@@ -14,7 +16,9 @@ import { TarefaComponent } from './tarefa/tarefa.component';
   imports: [
     CommonModule,
     TarefaRoutingModule,
-    MatTableModule
+    MatTableModule,
+    MatCardModule,
+    MatToolbarModule
   ]
 })
 export class TarefaModule { }
